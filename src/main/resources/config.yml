@@ -1,0 +1,30 @@
+randomize-on-join: true
+
+name:
+  adjective-chance: 0.70
+  number-chance: 0.55
+
+  number:
+    min: 1
+    max: 999
+
+  max-generation-attempts: 100
+
+features:
+  auto-identity: true
+  change-join-message: true
+  change-quit-message: true
+  change-chat-name: true
+  change-tab: true
+
+skin:
+  enabled: true
+  cache: true
+  avoid-duplicates: true
+
+messages:
+  join: "<green>+ <white>{name} joined the game"
+  quit: "<red>- <white>{name} left the game"
+  rerolled: "<green>Identity changed to <white>{name}<green>."
+  no-permission: "<red>You don't have permission to do that."
+  player-not-found: "<red>Player not found."

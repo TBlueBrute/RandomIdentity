@@ -1,0 +1,18 @@
+name: RandomIdentity
+version: 1.0.0
+main: com.randomidentity.RandomIdentityPlugin
+description: Randomizes player identities on join.
+author: Custom
+api-version: '26.2'
+
+commands:
+  identity:
+    description: Manage RandomIdentity.
+    usage: /identity <reroll|info|reload>
+    aliases:
+      - randomidentity
+
+permissions:
+  randomidentity.admin:
+    description: Allows administration of RandomIdentity.
+    default: op
